@@ -14,7 +14,7 @@ A player dies if its BIKE goes to the boundary of the game level, or it goes to 
 * Contains Game Sound Effects
 
 ## FEATURES TO COME 
-* Working ON Sigle Story Mode,where Computer can play against User.
+* Working ON Single Story Mode,where Computer can play against User.
 
 
 ## CLASS DIAGRAM 
