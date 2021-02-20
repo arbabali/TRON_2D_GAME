@@ -24,4 +24,4 @@ A player dies if its BIKE goes to the boundary of the game level, or it goes to 
 
 ![image info](https://github.com/arbabali/TRON_2D_GAME/blob/main/class%20diagram.png)
 
-## DOCUMENTATION LINK : [label](https://github.com/arbabali/TRON_2D_GAME/blob/main/Documentation.pdf)
+## DOCUMENTATION LINK : [DOCUMENTATION](https://github.com/arbabali/TRON_2D_GAME/blob/main/Documentation.pdf)
