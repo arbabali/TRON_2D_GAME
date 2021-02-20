@@ -49,7 +49,7 @@ public class GameEngine extends JPanel {
   
    
     private Bike player1;
-    private BikeAI player2;
+    private Bike player2;
  
     private Color player1Color=Color.YELLOW;
     private Color player2Color=Color.RED;
@@ -107,44 +107,44 @@ public class GameEngine extends JPanel {
         });
         
 //       int r = rand.nextInt(100);
-//		if (r == 1) {
+// 		if (r == 1) {
 //                     player2.setVelx(-MOTOR_VELOCITY);
-//		} 
-//        this.getInputMap().put(KeyStroke.getKeyStroke("A"), "pressed d");
-//        this.getActionMap().put("pressed d", new AbstractAction() {
-//            @Override
-//            public void actionPerformed(ActionEvent ae) {
-//                player2.setVelx(-MOTOR_VELOCITY);
-//   
-//            }
-//        });
-//        this.getInputMap().put(KeyStroke.getKeyStroke("D"), "pressed a");
-//        this.getActionMap().put("pressed a", new AbstractAction() {
-//            @Override
-//            public void actionPerformed(ActionEvent ae) {
-//                player2.setVelx(MOTOR_VELOCITY);
-//    
-//            }
-//        });
-//        this.getInputMap().put(KeyStroke.getKeyStroke("S"), "pressed s");
-//        this.getActionMap().put("pressed s", new AbstractAction() {
-//            @Override
-//            public void actionPerformed(ActionEvent ae) {
-//               
-//                player2.setVely(MOTOR_VELOCITY);
-//               
-//            }
-//        });
-//        this.getInputMap().put(KeyStroke.getKeyStroke("W"), "pressed w");
-//        this.getActionMap().put("pressed w", new AbstractAction() {
-//            @Override
-//            public void actionPerformed(ActionEvent ae) {
-//                
-//                player2.setVely(-MOTOR_VELOCITY);
-//              
-//            }
-//        });
-//       
+// 		} 
+       this.getInputMap().put(KeyStroke.getKeyStroke("A"), "pressed d");
+       this.getActionMap().put("pressed d", new AbstractAction() {
+           @Override
+           public void actionPerformed(ActionEvent ae) {
+               player2.setVelx(-MOTOR_VELOCITY);
+  
+           }
+       });
+       this.getInputMap().put(KeyStroke.getKeyStroke("D"), "pressed a");
+       this.getActionMap().put("pressed a", new AbstractAction() {
+           @Override
+           public void actionPerformed(ActionEvent ae) {
+               player2.setVelx(MOTOR_VELOCITY);
+   
+           }
+       });
+       this.getInputMap().put(KeyStroke.getKeyStroke("S"), "pressed s");
+       this.getActionMap().put("pressed s", new AbstractAction() {
+           @Override
+           public void actionPerformed(ActionEvent ae) {
+              
+               player2.setVely(MOTOR_VELOCITY);
+              
+           }
+       });
+       this.getInputMap().put(KeyStroke.getKeyStroke("W"), "pressed w");
+       this.getActionMap().put("pressed w", new AbstractAction() {
+           @Override
+           public void actionPerformed(ActionEvent ae) {
+               
+               player2.setVely(-MOTOR_VELOCITY);
+             
+           }
+       });
+      
         
         this.getInputMap().put(KeyStroke.getKeyStroke("ESCAPE"), "escape");
         this.getActionMap().put("escape", new AbstractAction() {
@@ -261,7 +261,7 @@ public class GameEngine extends JPanel {
 //        livesLabel=new Score(2,levelNum,levelNum);
         
         player1=initPlayer(player1Name,1,player1Color,new Point(350,450));
-        player2=initPlayerAI(player2Name,2,player2Color,new Point(350,50));
+        player2=initPlayer(player2Name,2,player2Color,new Point(350,50));
         
         
    
