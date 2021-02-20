@@ -6,6 +6,9 @@ Two  players  play against each other with two BIKES, where each motor leaves a 
 The BIKE goes in each seconds toward the direction, that the player has set recently.
 The First player can use the *W A S D* keyboard buttons, The Second one can use the *ARROW KEYS*.
 A player dies if its BIKE goes to the boundary of the game level, or it goes to the light trace of the other player.
+## TECHNOLOGY USED 
+* Swing GUI Java
+* AWT: Abstract Widget Toolkit JAVA 
 
 ## FEATURES 
 * User  friendly  ,Object Oriented implementation
@@ -20,3 +23,5 @@ A player dies if its BIKE goes to the boundary of the game level, or it goes to 
 ## CLASS DIAGRAM 
 
 ![image info](https://github.com/arbabali/TRON_2D_GAME/blob/main/class%20diagram.png)
+
+## DOCUMENTATION LINK : [label](https://github.com/arbabali/TRON_2D_GAME/blob/main/Documentation.pdf)
